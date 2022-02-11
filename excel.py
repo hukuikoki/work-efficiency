@@ -54,16 +54,6 @@ for book in glob.glob(os.path.join(path, fileType)):
               
                #置換対象項目の判定(「④置換対象項目名」との比較)
                if cellRow.value in tgtItem:
-              
-                  #置換対象項目列のループ
-                  #for 列変数 in シート変数.iter_col(min_row = 3(開始行),max_row=対象シートで値が入っているMAX行数(終了行)
-                                                   #,min_row=置換対象の列(開始列),max_row=置換対象の列(終了列))
-                  # for col in actSheet.iter_cols(min_row=3, max_row=maxRow, min_col=cellRow.column, max_col=cellRow.column):
-     
-                  #    #for セル変数 in 列変数
-                  #    for cellCol in col:
-                       
-               #対象セルに「⑤置換後データ」を設定
                #セル変数.value=置換文字
                   cellRow.value=changDate
                   count+=1
