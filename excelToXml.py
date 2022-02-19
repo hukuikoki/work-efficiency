@@ -27,7 +27,7 @@ def tableToList(ws):
 # xml宣言とルート開始タグを書き込み
 def writeDeclaration():
     with open(inventoryFile, 'w') as f:
-        print('<?xml version="1.0" encoding="UTF-8"?>\n<inventory xmlns="http://www.demandware.com/xml/impex/inventory/2007-05-31">', file=f)
+        print('<?xml version="1.0" encoding="UTF-8"?>\n<xxxxxxxx>', file=f)
 # 主要データの書き込み
 def writeMain(inventoryList, isYoyaku):
     with open(inventoryFile, 'a') as f:
